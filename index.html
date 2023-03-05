@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>assignment project</title>
+</head>
+
+<body>
+    <header class="intro">
+        <h1>Assignments Management</h1>
+    </header>
+    <div class="btn">
+        <button class="buttons" id="add">All Assignment List</button>
+        <button class="buttons" id="future">Pending Assignments</button>
+        <button class="buttons" id="past">Completed Assignments</button>
+    </div>
+
+    <form action="" id="form">
+        <label for="input" class="inputL">Input</label><br>
+        <input type="text" class="text" id="input" placeholder="your title here :"><br>
+        <label for="desc" class="descL">Description</label><br>
+        <textarea id="desc" class="text" cols="20" rows="3" placeholder="description about it :"></textarea><br>
+        <label for="batch" class="batchL">Batch Name</label><br>
+        <input type="text" class="text" id="batch" placeholder="your batch..?"><br>
+        <label for="due" class="dueL">Due Date</label><br>
+        <input type="date" class="text" id="due" placeholder="due date :"><br>
+        <button type="submit" id="submit">submit</button>
+    </form>
+
+    <table id="table">
+        <tr id="tRow">
+            <th>Title</th>
+            <th>Discripion</th>
+            <th>Batch Name</th>
+            <th>Due Date</th>
+        </tr>
+
+    </table>
+
+    <script src="./vendor.js" defer></script>
+    <script src="./app.js" defer></script>
+</body>
+
+</html>

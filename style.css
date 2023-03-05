@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(#efef12,blue,yellow,red);
+
+}
+h1{
+    font-size: 35px;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro {
+    text-align: center;
+    margin: 1.5rem 0 3rem 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(212, 228, 66);
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+    color: rgb(64, 149, 223);
+}
+
+.buttons:active {
+    background-color: rgb(249, 26, 26);
+}
+
+#form {
+    background-image: linear-gradient(#efef03,lightblue);
+    border: 1px none solid;
+    border-radius: 1rem;
+    width: 24%;
+    margin-left: 5%;
+    height: 22.5rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    float: left;
+}
+
+.text {
+    margin-bottom: 1rem;
+    width: 82%;
+    padding: 0.2rem 0;
+    border-radius: 10px;
+}
+
+label {
+    margin-left: 34%;
+    font-size: 1.3rem;
+}
+
+
+.batchL {
+    margin-left: 28%;
+}
+
+.dueL {
+    margin-left: 31%;
+}
+
+#submit {
+    margin-left: 28%;
+    padding: 0.3rem 1.9rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: crimson;
+    cursor: pointer;
+
+}
+
+table {
+    float: right;
+    background-color: lightgoldenrodyellow;
+    width: 60%;
+    margin-right: 3%;
+    visibility: hidden;
+}
+
+td {
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid rgb(118, 75, 75);
+    border-collapse: collapse;
+
+}
+
+tr {
+    column-span: none;
+}
+
+td:nth-child(2) {
+    box-sizing: border-box;
+    overflow-y: scroll;
+    background-color: rgb(206, 237, 215);
+}
